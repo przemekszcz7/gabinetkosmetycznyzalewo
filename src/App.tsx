@@ -293,7 +293,7 @@ export default function App() {
             />
             <div className="flex flex-col">
               <div className="serif text-2xl font-bold text-brand-text tracking-tight">Gabinet Kosmetyczny</div>
-              <div className="text-[10px] text-brand-accent/50 uppercase font-black tracking-[0.4em]">Zalewo • Od 2014</div>
+              <div className="text-[10px] text-brand-accent/50 uppercase font-black tracking-[0.4em]">Zalewo</div>
             </div>
           </div>
           <div className="flex flex-wrap justify-center gap-x-12 gap-y-6 text-[10px] font-black uppercase tracking-[0.3em] text-brand-text/50">
