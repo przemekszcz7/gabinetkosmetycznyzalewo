@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Montserrat", sans-serif;
+  
+  --color-brand-bg: #FCF8F8;
+  --color-brand-pink: #FDF2F2;
+  --color-brand-rose: #FCE4E4;
+  --color-brand-accent: #8E5D5D;
+  --color-brand-gold: #D4AF37;
+  --color-brand-text: #2D2D2D;
+}
+
+@layer base {
+  body {
+    @apply font-sans text-brand-text bg-brand-bg antialiased;
+  }
+}
+
+.serif {
+  font-family: var(--font-serif);
+}
+
+.elegant-border {
+  @apply border border-brand-rose/40;
+}
+
+.elegant-shadow {
+  @apply shadow-[0_10px_40px_-15px_rgba(142,93,93,0.1)];
+}
+
+.glass {
+  @apply backdrop-blur-xl bg-white/60 border-b border-brand-rose/20;
+}
